@@ -1,6 +1,6 @@
 // 予備品カウンタ：電波がなくても開けるように、アプリのファイルを端末にしまっておく
 // （ファイルを直してアップロードし直すときは、CACHE の番号を上げる）
-const CACHE = 'yobihin-counter-v1';
+const CACHE = 'yobihin-counter-v2';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
